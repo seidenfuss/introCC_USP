@@ -5,11 +5,10 @@ def Fatorial(n):
         n=n-1
     return fat
 
-def binomio(n,k):
+def Binomio(n,k):
     return Fatorial(n)/(Fatorial(k)*Fatorial(n-k))
-
-for i in range(1,10):
-    print(binomio(10,i))
+for j in range (1,10):
+    print(Binomio(10,j))
 
 "criar teste automatizado para a função numero binomial"
 
